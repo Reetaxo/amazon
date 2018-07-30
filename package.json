@@ -1,0 +1,25 @@
+{
+  "name": "amazon",
+  "version": "1.0.0",
+  "description": "mysql, node # Node.js & MySQL",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reetaxo/amazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reetaxo/amazon/issues"
+  },
+  "homepage": "https://github.com/Reetaxo/amazon#readme",
+  "dependencies": {
+    "cli-table3": "^0.5.1",
+    "inquirer": "^6.0.0",
+    "mysql": "^2.16.0"
+  }
+}
