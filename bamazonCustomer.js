@@ -26,7 +26,7 @@ connection.query("SELECT * FROM products", function(err, res) {
     if (err) throw err;
   console.log("Welcome to Syreeta's Bamazon!");
   for (var i = 0; i < res.length; i++) {
-      console.log("Item ID: " + res[i].item_id + "\nName of Product: " + res[i].product_name + "\nPrice: " + "$" + res[i].price + "\n♡♡♡♡");
+      console.log("\n♡♡♡♡\n" + "Item ID: " + res[i].item_id + "\nName of Product: " + res[i].product_name + "\nPrice: " + "$" + res[i].price + "\n♡♡♡♡\n");
   }
 });
 }
