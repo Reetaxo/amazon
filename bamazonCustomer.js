@@ -16,6 +16,7 @@ connection.connect(function(err) {
 
   });
 
+
 //   var table = new Table({
 //     head: ['TH 1 label', 'TH 2 label'],
 // //   , colWidths: [100, 200]
